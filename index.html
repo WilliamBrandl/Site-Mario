@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 
     <title>Super Mario</title>
 
@@ -65,25 +66,27 @@
 
     <div class="mascara-form"></div>
 
+    <script>
+        let formulario = document.querySelector(".fale-conosco")
+        let mascara = document.querySelector(".mascara-form")
+    
+    
+        function cliqueiNoBotao() {
+            formulario.style.left = "700px"
+            mascara.style.visibility = "visible"
+        }
+    
+        function sumirFormulario() {
+            formulario.style.left = "-320px"
+            mascara.style.visibility = "hidden"
+        }
+    
+    </script>
+
 
 </body>
 
-<script>
-    let formulario = document.querySelector(".fale-conosco")
-    let mascara = document.querySelector(".mascara-form")
 
-
-    function cliqueiNoBotao() {
-        formulario.style.left = "700px"
-        mascara.style.visibility = "visible"
-    }
-
-    function sumirFormulario() {
-        formulario.style.left = "-320px"
-        mascara.style.visibility = "hidden"
-    }
-
-</script>
 
 
 
